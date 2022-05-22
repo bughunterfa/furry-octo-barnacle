@@ -3,9 +3,9 @@
 # 不要再fork了，点击Use this template后修改项目名，将readme.md中的Cptmacmillan2022007替换为自己的用户名和修改后的项目名再进行部署，非常重要，切记！！！！
 
 # 概述
-本项目用于在 Heroku 上部署 V2Ray/Xray WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
+本项目用于在 Heroku 上部署 bedun2r/iks2r WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
 
-部署完成后，每次启动应用时，运行的 V2Ray/Xray 将始终为最新版本。
+部署完成后，每次启动应用时，运行的 bedun2r/iks2r 将始终为最新版本。
 
 # 部署提示
 
@@ -13,7 +13,7 @@
 |:---------|
 |**因使用本项目执行其他活动所产生的所有后果本项目概不负责！！！！**|
 |**禁止向任何网站转发本项目！！！！**|
-|**注意项目名字中不要包含Shadowsocks（ss）、VLESS、VMESS、Trojan（tj）、Xray、V2ray**|
+|**注意项目名字中不要包含Shadowsocks（ss）、VLESS、VMESS、Trojan（tj）、iks2r、bedun2r**|
 |**如果能继续使用的，请保持低调！！！**|
 |**滥用可能导致账户被删除！！！**|
 |**点击Use this template后修改项目名，将readme.md中的Cptmacmillan2022007替换为自己的用户名和修改后的项目名再进行部署，非常重要，切记！！！！**|
@@ -24,13 +24,13 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://dashboard.heroku.com/new?template=https://github.com/Cptmacmillan2022007/IX-RXVT.git)
 
-# Xray/V2Ray Vmess
+# iks2r/bedun2r Vmess
 |**属性**|**值**|
 |:------:|:----:|
 |**地址**|优选IP<br>应用名.heroku.com|
 |**端口**|443|
 |**用户ID**|87b5c352-90d7-4ee1-9d1e-b03231c9fc53<br>**注意：务必使用自己创建的UUID。不要使用本项目中示范的UUID！**|
-|**Vmess额外ID<br>Alter ID**|0<br>**注意：此选项将于2022.1.1之后废弃不用，请用户及时更新最新的客户端以解决此问题。仅对使用Xray-core的用户有影响。**|
+|**Vmess额外ID<br>Alter ID**|0<br>**注意：此选项将于2022.1.1之后废弃不用，请用户及时更新最新的客户端以解决此问题。仅对使用iks2r-core的用户有影响。**|
 |**加密**|auto<br>**注意：Vmess默认禁止以下加密方式连接：none、aes-128-cfb**|
 |**传输协议**|ws|
 |**伪装类型**|none|
@@ -40,7 +40,7 @@
 |**跳过证书验证**|false|
 |**SNI**|xxxx.workers.dev(CF Workers反代地址)<br>应用名.heroku.com|
 
-# Xray/V2Ray VLESS
+# iks2r/bedun2r VLESS
 |**属性**|**值**|
 |:------:|:----:|
 |**地址**|优选IP<br>应用名.heroku.com|
@@ -56,7 +56,7 @@
 |**跳过证书验证**|false|
 |**SNI**|xxxx.workers.dev(CF Workers反代地址)<br>应用名.heroku.com|
 
-# Xray/V2Ray Trojan
+# iks2r/bedun2r Trojan
 |**属性**|**值**|
 |:------:|:----:|
 |**地址**|优选IP<br>应用名.heroku.com|
@@ -75,10 +75,10 @@
 # Trojan Ws+Tls客户端支持状态
 |**客户端**|**是否支持Trojan Ws+Tls？**|
 |:--------:|:------------------------:|
-|**2dust V2RayN<br>2dust V2RayNG**|是，需要电脑端4.27以上版本且有.net framework 6.0及更高版本<br>手机端需要1.6.30及更高版本|
+|**2dust bedun2rN<br>2dust bedun2rNG**|是，需要电脑端4.27以上版本且有.net framework 6.0及更高版本<br>手机端需要1.6.30及更高版本|
 |**OpenWrt SSRPlus**|是|
 |**OpenWrt Passwall**|是，需要最新版本passwall|
-|~~**QV2Ray**~~|~~否~~|
+|~~**Qbedun2r**~~|~~否~~|
 
 # CloudFlare Workers反代代码（从以下3个示例中选择其中1个部署到CF Workers）
 
@@ -157,8 +157,8 @@ addEventListener(
 ```
 
 # 鸣谢
-- [Project V](https://github.com/v2fly/v2ray-core.git)
-- [Project X](https://github.com/XTLS/Xray-core.git)
+- [Project V](https://github.com/v2fly/bedun2r-core.git)
+- [Project X](https://github.com/XTLS/iks2r-core.git)
 - [HeroKu](https://heroku.com)
 - [heroku-vless](https://github.com/DanyTPG/heroku-vless.git)
 - [Better Cloudflare IP](https://github.com/badafans/better-cloudflare-ip.git)
