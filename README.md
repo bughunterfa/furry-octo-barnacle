@@ -1,7 +1,5 @@
 # furry-octo-barnacle
 
-# 不要再fork了，点击Use this template
-
 # 概述
 本项目用于在 Heroku 上部署 bedun2r/iks2r WebSocket，在合理使用的程度下，本镜像不会因为大量占用资源而导致封号。
 
